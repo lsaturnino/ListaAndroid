@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Escolha uma opção"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:textSize="30dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/marginBottomButton"
+        android:backgroundTint="#D02020"
+        android:onClick="goToScreenIMC"
+        android:text="Calcular IMC"
+        android:textSize="30dp"
+        app:icon="@android:drawable/btn_star_big_on" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/marginBottomButton"
+        android:backgroundTint="#D02020"
+        android:onClick="goToScreenIMC2Screens"
+        android:text="@string/calculateIMCTwoScreens"
+        android:textSize="30dp"
+        app:icon="@android:drawable/btn_star_big_on" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/marginBottomButton"
+        android:backgroundTint="#D02020"
+        android:onClick="goToScreenQuestao3"
+        android:text="QUESTAO3"
+        android:textSize="30dp"
+        app:icon="@android:drawable/btn_star_big_on" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/marginBottomButton"
+        android:backgroundTint="#D02020"
+        android:onClick="goToScreenQuestao13"
+        android:text="QUESTAO13"
+        android:textSize="30dp"
+        app:icon="@android:drawable/btn_star_big_on" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/marginBottomButton"
+        android:backgroundTint="#D02020"
+        android:onClick="goToScreenQuestao28"
+        android:text="QUESTAO28"
+        android:textSize="30dp"
+        app:icon="@android:drawable/btn_star_big_on" />
+
+
+</LinearLayout>

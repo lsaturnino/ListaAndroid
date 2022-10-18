@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">My First App</string>
+    <string name="edit_message">Insira sua risada</string>
+    <string name="button_send">Send</string>
+    <string name="imc">CALCULADORA DE IMC</string>
+    <string name="peso">Peso:</string>
+    <string name="altura">Altura:</string>
+    <string name="button_calculate_imc">Calcular IMC</string>
+    <string name="calculateIMCTwoScreens">Calcular IMC 2T</string>
+    <string name="questao3text">Conversor de metros</string>
+    <string name="metro">Valor Do Metro:</string>
+    <string name="button_questao3">Calcular</string>
+    <string name="questao13text">Voce Pode doar Sangue?</string>
+    <string name="idade">Idade:</string>
+    <string name="questao28text">Conversor de número p/ um mês</string>
+    <string name="button_questao28">Calcular</string>
+    <string name="mes">Número Mês:</string>
+</resources>
